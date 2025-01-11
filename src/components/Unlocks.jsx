@@ -166,7 +166,7 @@ const Unlocks = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
+        <BentoTilt className="bento-tilt_1 row-span-1 ms-0 md:col-span-1 md:ms-0">
           <BentoCard
             src="videos/house.mov"
             title={<>House</>}
@@ -179,7 +179,7 @@ const Unlocks = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
+        <BentoTilt className="bento-tilt_1 me-0 md:col-span-1 md:me-0">
           <BentoCard
             src="videos/cafe-carwash.mp4"
             title={<>Business</>}
@@ -210,7 +210,7 @@ const Unlocks = () => (
             muted
             playsInline
             autoPlay
-            className="size-full object-cover object-center border-2 border-gray-800"
+            className="size-full object-cover object-center border-2 border-gray-700"
           />
         </BentoTilt>
       </div>
